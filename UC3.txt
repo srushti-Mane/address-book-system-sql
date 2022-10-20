@@ -1,0 +1,5 @@
+INSERT INTO Persons ( PersonID, LastName, FirstName, Address, City, 
+PhoneNumber, email, zip) VALUES (1, 'mane deshmukh', 'srushti', 'shirol', 'shirol',
+8623023273, 'srush@gmail.com', 416103),(2, 'lohar', 'poonam', 'shirol', 'shirol',
+ 9689509560, 'poonam@gmail.com', 416103);
+ SELECT * FROM Persons;
