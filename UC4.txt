@@ -1,0 +1,3 @@
+set sql_safe_updates=0;
+update Persons set Address = 'Aurangabad' WHERE Address = 'shirol';
+SELECT * FROM Persons;
