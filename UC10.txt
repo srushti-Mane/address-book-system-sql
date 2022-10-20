@@ -1,0 +1,4 @@
+SELECT Type, COUNT(FirstName) FROM Persons GROUP BY Type;
+ SHOW DATABASES;
+  use address_book_system;
+  DESCRIBE Persons;
