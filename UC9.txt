@@ -1,0 +1,8 @@
+ALTER TABLE Persons ADD Type varchar(150) AFTER FirstName;
+ SELECT * FROM Persons;
+  update Persons set Type = 'Family' WHERE FirstName = 'akshay';
+ update Persons set Type = 'Family' WHERE FirstName = 'srushti';
+ update Persons set Type = 'Friend' WHERE FirstName = 'poonam';
+update Persons set Type = 'Profession' WHERE FirstName = 'sonal';
+update Persons set Type = 'Friend' WHERE FirstName = 'trupti';
+ SELECT * FROM Persons;
