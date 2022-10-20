@@ -1,0 +1,7 @@
+SELECT COUNT(City) FROM Persons;
+INSERT INTO Persons ( PersonID, LastName, FirstName, Address, City, PhoneNumber, email, zip) 
+VALUES (1, 'Patil', 'akshay', 'sangli', 'sanglii',7896589657, 'akshay@gmail.com', 416416),(2, 'shinde',
+ 'trupti', 'male', 'kolhapur', 8659356231, 'trupti@gmail.com', 416895);
+SELECT * FROM Persons;
+update Persons set FirstName = 'sonal' WHERE LastName = 'avdhut';
+ SELECT * FROM Persons;
