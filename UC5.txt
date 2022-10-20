@@ -1,0 +1,2 @@
+DELETE FROM Persons WHERE FirstName = 'poonam';
+ SELECT * FROM Persons;
