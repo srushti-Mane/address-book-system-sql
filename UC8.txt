@@ -1,0 +1,3 @@
+SELECT * FROM Persons ORDER BY FirstName;
+SELECT * FROM Persons WHERE City = 'male';
+SELECT * FROM Persons;
